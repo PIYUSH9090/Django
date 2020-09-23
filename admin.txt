@@ -1,26 +1,22 @@
 a) django-admin startproject america
   
---> Here we will make the project in terminal by following command, then give name as america. Then in the project folder we will get the 3 	files which is project name file and manage.py only.
+--> Here we will make the project in terminal by following command "django-admin startproject america", then give name as america. Then in 
+	the project folder we will get the 2 files which is project name folder and manage.py only.
 
 b) start app
 
 --> After then we will create the app in the project folder by this command "python3 manage.py startapp chiago(app name)". Then we will get 
-	another folder in our project which is our app(chicago).
+	another folder in our main project folder which is our app(chicago).
 
 c) migrate
 
---> After the creating app we will doing some changes in settings.py file and models.py, then we will make migrations by this command 
-	"python3 manage.py makemigrations" and immediately we will apply another command which is "python3 manage.py migrate".which should go 
-	with 0 error or u get any error so simply check and solve that error.
+--> After the creating app we will doing some changes in settings.py we will add app name in installed apps and modify the Timezone in file
+    and add the class in models.py, then we will make migrations by this command "python3 manage.py makemigrations" and immediately we will apply another command which is "python3 manage.py migrate".which should go with 0 error or u get any error so simply check and solve that error.
 
 d) super user
 
---> After migrate we will modify admin.py file, then we have to create super user by this command ("python3 manage.py createsuperuser").
-	This mmand will make the super user exe. admin. It will ask us for username, email, password, then we will be able to login into admin panel.
+--> After migrate we will modify the class in admin.py file also import modukes, then we have to create super user by this command ("python3 
+	manage.py createsuperuser").This command will make the super user exe. admin. It will ask us for username, email, password, then we will be able to login into admin panel. 
 
 
-
- Check in these to GitHub
-
- GitHub Link :- https://github.com/PIYUSH9090/Django 
 
