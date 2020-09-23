@@ -1,0 +1,5 @@
+1. Write 1 or 2 lines about each of the below
+
+a) django-admin startproject america
+  
+=> Here we will make the project in terminal by following command, then give name as america. Then in the project folder we will get the 3 files which is project name file, 
