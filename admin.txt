@@ -1,5 +1,26 @@
-1. Write 1 or 2 lines about each of the below
-
 a) django-admin startproject america
   
-=> Here we will make the project in terminal by following command, then give name as america. Then in the project folder we will get the 3 files which is project name file, 
+--> Here we will make the project in terminal by following command, then give name as america. Then in the project folder we will get the 3 	files which is project name file and manage.py only.
+
+b) start app
+
+--> After then we will create the app in the project folder by this command "python3 manage.py startapp chiago(app name)". Then we will get 
+	another folder in our project which is our app(chicago).
+
+c) migrate
+
+--> After the creating app we will doing some changes in settings.py file and models.py, then we will make migrations by this command 
+	"python3 manage.py makemigrations" and immediately we will apply another command which is "python3 manage.py migrate".which should go 
+	with 0 error or u get any error so simply check and solve that error.
+
+d) super user
+
+--> After migrate we will modify admin.py file, then we have to create super user by this command ("python3 manage.py createsuperuser").
+	This mmand will make the super user exe. admin. It will ask us for username, email, password, then we will be able to login into admin panel.
+
+
+
+ Check in these to GitHub
+
+ GitHub Link :- https://github.com/PIYUSH9090/Django 
+
