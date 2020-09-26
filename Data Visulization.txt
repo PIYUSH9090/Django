@@ -1,0 +1,87 @@
+      Data Visulization
+
+=> Python Language
+
+--> 1) Matplotlib
+	2) Seaborn
+	3) Ggplot
+	4) Bokeh
+	5) Plotly
+
+The most commonly used library for data visualization in Python is Matplotlib. Matplotlib is based on NumPy arrays, and was originally designed as a Python alternative to Matlab, which is reflected in much of the syntax. 
+A scatterplot with graphic title and axis label similar to the R can be created with Matplotlib using the scatter() function.
+
+Unlike R, Python as a “general-purpose” programming language does not include data visualization tools by default. However, Python also provides many libraries for this purpose, such as Matplotlib and Seaborn.
+
+Python now also offers numerous packages (like plotnine and ggpy) which are equivalents of ggplot2 in R, and allow you to create plots in Python according to the same “Grammar of Graphics” principle.
+
+=> R Language   
+
+--> 1) ggplot 2            
+	2) Lattice
+	3) Leaflet
+	4) Plotly
+	5) sunburstR
+
+In particular, ggplot2 and data visualization in R go hand-in-hand. With ggplot2, R offers an elegant and versatile system for creating plots, following a layered approach that allows you to create plots step-by-step: starting with the data, then adding “aesthetics” (such as axes and the position of the data points on the plot), and style elements like lines, scales, or confidence intervals. This “Grammar of Graphics” philosophy, where objects are added to the plot in layers, allows a relatively simple and intuitive creation of images.
+
+R provides some basic packages that are installed by default. This includes the graphics package, which contains about 100 functions to create traditional plots. These very simple generic functions allow you to quickly create simple images such as scatterplots, boxplots, and histograms. This comes in handy for speedy data exploration.
+
+
+     Summary ==>>
+
+ => Speed Test
+
+
+
+ python program - 
+
+ Input -    import time 
+            timer_start = time.time()
+
+            for i in range(1,1000):
+ 	            print("hello world")
+ 
+            print("Done")
+            timer_end = time.time() - timer_start
+
+ Output -   Absolute running time = 0.07 sec , cput time = 0.02 sec , memory peak = 5 mb , absolute service time = 0,22 sec
+
+ 
+
+ R language program -
+
+ Input -    ptm <- proc.time()
+
+ 			for(i in 1:1000) {
+ 				print("hello world")
+ 			}
+ 			print("Done")
+ 			print(proc.time() - ptm)
+
+ Output -   Absolute running time = 0.6 sec , cput time = 0.93 sec , memory peak = 37 mb , absolute service time = 0,77 sec
+
+
+ You can see that easly how python is faster then R ....
+
+
+
+Overall, both R and Python are well-equipped for data visualization. R is a language primarily for data analysis, which is manifested in the fact that it provides a variety of packages that are designed for scientific visualization. Python, on the other hand, is a general-purpose programming language that can also be used for data analysis, and offers many good solutions for data visualization.
+
+Customizing graphics is easier and more intuitive in R with the help of ggplot2 than in Python with Matplotlib. The Seaborn library helps to overcome this, and offers good standard solutions which get by with relatively few lines of code. Our example clearly shows that Seaborn can often accomplish similar plots to ggplot2, but with less code.
+
+Essentially, the decision between R and Python should consider the programming-language preferences and experiences of the user. Ultimately, both languages offer the possibility to visualize data in a clear and appealing manner.
+
+Also python community is larger then R community. So whenever you stuck in data science you can get help very fast in python community beacause tehey are very active on stack overflow and other plateforms as well as.
+
+Python job market is bigger then R in data science because lots of companies are searching for python developers in theire data science fields. Also if you are beginner in programming then Python is more easy tolearn compare to R for data science and visulization. Also python has more libraries then R .Python is growing day by day because python can do much more then R can do.
+
+
+So in my opinion the python is clear winner. 
+
+
+
+
+
+
+

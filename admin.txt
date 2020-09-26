@@ -19,4 +19,3 @@ d) super user
 	manage.py createsuperuser").This command will make the super user exe. admin. It will ask us for username, email, password, then we will be able to login into admin panel. 
 
 
-
