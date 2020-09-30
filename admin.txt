@@ -5,7 +5,7 @@ a) django-admin startproject america
 
 b) start app
 
---> After then we will create the app in the project folder by this command "python3 manage.py startapp chiago(app name)". Then we will get 
+--> After then we will create the app in the project folder by this command "python3 manage.py startapp chicago(app name)". Then we will get 
 	another folder in our main project folder which is our app(chicago).
 
 c) migrate
